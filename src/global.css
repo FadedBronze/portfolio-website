@@ -7,12 +7,12 @@
 
 #app {
 	width: 100%;
-	height: 100%;
 }
 
 html {
 	padding: 0;
 	margin: 0;
+	scroll-behavior: smooth;
 }
 
 body {
@@ -20,6 +20,7 @@ body {
 	box-content: content-box;	
 	padding: 0;
 	margin: 0;
+	overflow-x:hidden;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -31,10 +32,17 @@ h1, h2, h3, h4, h5, h6 {
 	margin: 0;	
 }
 
-p, span {
+p, span, li {
 	color: var(--color-primary-faded);
 	font-family: "Fira Mono", monospace;
 	font-style: normal;
 	padding:0;
 	margin:0;
+	font-size: 16px;
+}
+
+@media only screen and (max-width: 500px) {
+	p, span, li {
+		font-size: 12px;
+	}
 }
