@@ -3,6 +3,7 @@
 	--color-primary: #5941B3;	
 	--color-primary-faded: #6D72C3;
 	--color-headers: #E5D4ED;
+	--page-spacing: 125px;
 }
 
 #app {
@@ -32,7 +33,7 @@ h1, h2, h3, h4, h5, h6 {
 	margin: 0;	
 }
 
-p, span, li {
+p, span, li, a {
 	color: var(--color-primary-faded);
 	font-family: "Fira Mono", monospace;
 	font-style: normal;
@@ -41,8 +42,29 @@ p, span, li {
 	font-size: 16px;
 }
 
+.button {	
+	transition: background-color 0.5s, color 0.5s;	
+	cursor: pointer;
+}
+
+.button:hover {	
+	background-color: white !important;
+	color: var(--color-primary) !important; 
+}
+
 @media only screen and (max-width: 500px) {
 	p, span, li {
 		font-size: 12px;
 	}
+
+	:root {
+		--page-spacing: 50px;
+	}
 }
+
+@media only screen and (max-width: 800px) {
+	:root {
+		--page-spacing: 75px;
+	}	
+}
+

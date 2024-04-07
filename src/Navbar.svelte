@@ -37,7 +37,7 @@
 		display: flex;
 		justify-content: left;
 		width: 100%;	
-		padding: 20px 12vw;	
+		padding: 0 12vw;	
 		gap: 16px;
 	}
 
