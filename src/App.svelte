@@ -83,7 +83,7 @@ const projects: {title: string; highlights: string[], content: string; image: st
 		<div id="hero-content" style="padding: 0 12vw;width:100%;">
 			<p style="font-weight:500;">WEB DEVELOPER</p>	
 			<h1 style="font-size: 50px;line-height: 95%;">Samyat Gautam</h1>
-			<p style="margin-top:10px;width:60%">Really bad fix! Hi, I’m Samyat. I have a fondness for niche technological subjects. Love creating graphical applications or anything with visuals. Prepared to bring a new perspective to any collaborative en devours. Web developer with expertise in HTML canvas.</p>	
+			<p style="margin-top:10px;width:60%">Hi, I am Samyat Gautam. I like to make games, websites, and tools, and learn about new technologies. On this page you'll find some of my finer works.</p>	
 			<a href="#projects" style="text-decoration-line:none"><button class="button">Explore</button></a>	
 		</div>
 		<img src={planet} style="position:absolute; top:-10%; transform:scale(1.5); right:calc(-900px + 45vw)" alt="planet" />
